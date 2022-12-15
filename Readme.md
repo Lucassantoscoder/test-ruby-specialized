@@ -3,7 +3,8 @@
 
 Nesse projeto foi feito uma simulação de testes automatizado que faz: Acessar, buscar um produto adicionar no carrrinho e simular uma compra. Um projeto bem simples com apenas um cenário e legivel com padrão page objet para fácil manutenção.
 
-Ao final do teste é gerado um arquivo Html e Json para leitura dos resultados:
+Ao final do teste é gerado um arquivo Html e Json para leitura dos resultados.
+
 report gerado:
 ![page_result](https://user-images.githubusercontent.com/68041354/207876834-b57feaf9-238a-47a0-8794-771bb32228ec.png)
 
