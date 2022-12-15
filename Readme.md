@@ -1,5 +1,5 @@
 <h1 align="Center"> Teste automatizado web com Ruby & Cucumber </h1>
--------------------------------------------------------------------------------------------------
+
 
 Nesse projeto foi feito uma simulação de testes automatizado que faz: Acessar, buscar um produto adicionar no carrrinho e simular uma compra. Um projeto bem simples com apenas um cenário e legivel com padrão page objet para fácil manutenção.
 
