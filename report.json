@@ -1,0 +1,122 @@
+[
+  {
+    "id": "navegar-e-fazer-compra.",
+    "uri": "features/specs/loja_cenario.feature",
+    "keyword": "Funcionalidade",
+    "name": "Navegar e fazer compra.",
+    "description": "",
+    "line": 6,
+    "tags": [
+      {
+        "name": "@smoke",
+        "line": 5
+      }
+    ],
+    "elements": [
+      {
+        "id": "navegar-e-fazer-compra.;acessar-e-simular-uma-compra-no-ecommerce-da-amazon",
+        "keyword": "Cenario",
+        "name": "Acessar e simular uma compra no ecommerce da Amazon",
+        "description": "",
+        "line": 8,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que acesso a loja da amazon na internet",
+            "line": 9,
+            "match": {
+              "location": "features/step_definitions/loja_steps.rb:2"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5640056400
+            }
+          },
+          {
+            "keyword": "Quando ",
+            "name": "eu pesquiso o produto e tenho resultado",
+            "line": 10,
+            "match": {
+              "location": "features/step_definitions/loja_steps.rb:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11618280800
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "devo checar o valor do produto",
+            "line": 11,
+            "match": {
+              "location": "features/step_definitions/loja_steps.rb:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 473898000
+            }
+          },
+          {
+            "keyword": "Entao ",
+            "name": "envio o produto para o carrinho",
+            "line": 12,
+            "match": {
+              "location": "features/step_definitions/loja_steps.rb:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3714388800
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 5
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "features/support/env.rb:2"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 47000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.38.0/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 21600
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.38.0/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 76600
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "capybara-3.38.0/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 162209500
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
