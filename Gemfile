@@ -7,3 +7,4 @@ gem 'rspec'
 gem 'selenium-webdriver'
 gem 'site_prism'
 gem 'ffi'
+gem "ruby-lsp", "~> 0.3.7", :group => :development
