@@ -15,7 +15,7 @@ na minha opniao tem uma leitura mais facilitada.
 aqui esta o retorno do teste no terminal:
 ![Terminal cenario](https://user-images.githubusercontent.com/68041354/207876467-d5e8431a-48c7-457a-bd45-781d07736999.png)
 
-Bibliotecas utilizadas:
+Principais bibliotecas utilizadas:
 Capybara: é um software de automação de teste baseado na Web que simula cenários para histórias de usuários e automatiza o teste de aplicativos da Web
 
 RSpec: é uma biblioteca que permite validar os resultados das ações que realizamos. Nos ajuda a validar que o comportamento esperado foi obtido
