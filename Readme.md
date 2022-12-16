@@ -3,8 +3,6 @@
 ### Contato:<div><a href="https://www.linkedin.com/in/lucas-santos-239358132" target="_blank"><img src="https:/img.shields.io/badge-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
 </div>
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Lucassantoscoder&layout=compact)](https://github.com/Lucassantoscoder/github-readme-stats)
-
 
 Nesse projeto foi feito uma simulação de testes automatizado que faz: Acessar, buscar um produto adicionar no carrrinho e simular uma compra. Um projeto bem simples com apenas um cenário e legivel com padrão page objet para fácil manutenção.
 
