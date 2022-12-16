@@ -1,79 +1,64 @@
 [
   {
-    "id": "navegar-e-fazer-compra.",
-    "uri": "features/specs/loja_cenario.feature",
+    "id": "função-extrair-dados-de-um-produto",
+    "uri": "features/specs/extrair_cenario.feature",
     "keyword": "Funcionalidade",
-    "name": "Navegar e fazer compra.",
+    "name": "Função extrair dados de um produto",
     "description": "",
-    "line": 6,
+    "line": 4,
     "tags": [
       {
-        "name": "@smoke",
-        "line": 5
+        "name": "@regressivo",
+        "line": 3
       }
     ],
     "elements": [
       {
-        "id": "navegar-e-fazer-compra.;acessar-e-simular-uma-compra-no-ecommerce-da-amazon",
+        "id": "função-extrair-dados-de-um-produto;acessa-a-loja-e-extrair-dados",
         "keyword": "Cenario",
-        "name": "Acessar e simular uma compra no ecommerce da Amazon",
+        "name": "acessa a loja e extrair dados",
         "description": "",
-        "line": 8,
+        "line": 6,
         "type": "scenario",
         "steps": [
           {
             "keyword": "Dado ",
-            "name": "que acesso a loja da amazon na internet",
-            "line": 9,
+            "name": "que busco um produto",
+            "line": 8,
             "match": {
-              "location": "features/step_definitions/loja_steps.rb:2"
+              "location": "features/specs/extrair_cenario.feature:8"
             },
             "result": {
-              "status": "passed",
-              "duration": 5640056400
+              "status": "undefined"
             }
           },
           {
             "keyword": "Quando ",
-            "name": "eu pesquiso o produto e tenho resultado",
-            "line": 10,
+            "name": "busco a sua descrição",
+            "line": 9,
             "match": {
-              "location": "features/step_definitions/loja_steps.rb:7"
+              "location": "features/specs/extrair_cenario.feature:9"
             },
             "result": {
-              "status": "passed",
-              "duration": 11618280800
-            }
-          },
-          {
-            "keyword": "E ",
-            "name": "devo checar o valor do produto",
-            "line": 11,
-            "match": {
-              "location": "features/step_definitions/loja_steps.rb:11"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 473898000
+              "status": "undefined"
             }
           },
           {
             "keyword": "Entao ",
-            "name": "envio o produto para o carrinho",
-            "line": 12,
+            "name": "extraio dados",
+            "line": 10,
             "match": {
-              "location": "features/step_definitions/loja_steps.rb:16"
+              "location": "features/specs/extrair_cenario.feature:10"
             },
             "result": {
-              "status": "passed",
-              "duration": 3714388800
+              "status": "undefined"
             }
           }
         ],
         "tags": [
           {
-            "name": "@smoke",
-            "line": 5
+            "name": "@regressivo",
+            "line": 3
           }
         ],
         "before": [
@@ -83,7 +68,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 47000
+              "duration": 45600
             }
           },
           {
@@ -92,7 +77,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 21600
+              "duration": 25100
             }
           },
           {
@@ -101,7 +86,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 76600
+              "duration": 33900
             }
           }
         ],
@@ -112,7 +97,116 @@
             },
             "result": {
               "status": "passed",
-              "duration": 162209500
+              "duration": 34400
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "navegar-e-na-loja-e-efetuar-commpra.",
+    "uri": "features/specs/loja_cenario.feature",
+    "keyword": "Funcionalidade",
+    "name": "Navegar e na loja e efetuar commpra.",
+    "description": "",
+    "line": 4,
+    "tags": [
+      {
+        "name": "@smoke",
+        "line": 3
+      }
+    ],
+    "elements": [
+      {
+        "id": "navegar-e-na-loja-e-efetuar-commpra.;acessa-a-loja-e-extrair-dados",
+        "keyword": "Cenario",
+        "name": "acessa a loja e extrair dados",
+        "description": "",
+        "line": 14,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que busco um produto",
+            "line": 16,
+            "match": {
+              "location": "features/specs/loja_cenario.feature:16"
+            },
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "keyword": "Quando ",
+            "name": "busco a sua descrição",
+            "line": 17,
+            "match": {
+              "location": "features/specs/loja_cenario.feature:17"
+            },
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "keyword": "Entao ",
+            "name": "extraio dados",
+            "line": 18,
+            "match": {
+              "location": "features/specs/loja_cenario.feature:18"
+            },
+            "result": {
+              "status": "undefined"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 3
+          },
+          {
+            "name": "@regressivo",
+            "line": 13
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "features/support/env.rb:2"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 28100
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.38.0/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 28200
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.38.0/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 68000
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "capybara-3.38.0/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 32500
             }
           }
         ]
