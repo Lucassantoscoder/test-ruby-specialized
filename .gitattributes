@@ -1,1 +1,2 @@
-linguist-detectable
+*.python linguist-detectable=true
+*.ruby linguist-detectable=true
