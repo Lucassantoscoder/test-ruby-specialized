@@ -1,2 +1,2 @@
 *.csharp linguist-language=Ruby
-linguist-documentation
+* linguist-documentation
