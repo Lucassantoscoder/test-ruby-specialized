@@ -1,2 +1,2 @@
-test-ruby-specialized/* linguist-documentation
-*/features/pages/loja_pages.rb linguist-documentation=true
+* linguist-documentation
+*test-ruby-specialized/features/pages/loja_pages.rb linguist-documentation=true
