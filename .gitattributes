@@ -1,1 +1,2 @@
-*.c# linguist-language=Ruby
+*.csharp linguist-language=Ruby
+linguist-documentation
